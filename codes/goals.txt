@@ -1,0 +1,67 @@
+#! /bin/bash -f
+
+goalsFile="$HOME/.goals.txt"
+touch $goalsFile
+
+function add {
+	echo $1 >> $goalsFile
+}
+
+function discard {
+	if [ $1 == "all" ]
+	then
+		rm -f $goalsFile
+	else
+		sed -i "${1}d" $goalsFile
+	fi
+}
+
+function sayWord {
+	echo $1 | festival --tts
+}
+
+function speak {
+	text="Following are your goals:"
+	if [ -z `cat $goalsFile` ]
+	then
+		text="You have no goals in life. Such a waste, you are."
+	fi
+
+	if [ -z $1 ]
+	then
+		sayWord "$text"
+		awk '{printf("number %d is, %s,\n",NR, $0)}' ~/.goals.txt | festival --tts
+	else
+		sed -n "${1}p" $goalsFile | festival --tts
+	fi
+}
+
+function showUsage {
+	echo "Usage: $0 add|discard|say goal-text(add)|goal-number(for others)"
+}
+
+if [ "$1" == "add" ]
+then
+	if [ -z "$2" ]
+	then
+		showUsage
+	else
+		add "$2"
+	fi
+elif [ "$1" == "discard" ]
+then
+	if [ -z "$2" ]
+	then
+		echo "Use 'discard all' to discard all goals"
+		showUsage
+	else
+		discard "$2"
+	fi
+elif [ "$1" == "say" ] 
+then
+	speak $2
+else
+	echo "Following are your goals:"
+	awk '{printf("#%d: %s\n",NR, $0)}' ~/.goals.txt
+	showUsage
+fi
