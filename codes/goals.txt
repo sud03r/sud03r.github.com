@@ -21,15 +21,16 @@ function sayWord {
 }
 
 function speak {
-	text="Following are your goals:"
-	if [ -z `cat $goalsFile` ]
+	if [ -z "`cat $goalsFile`" ]
 	then
 		text="You have no goals in life. Such a waste, you are."
+		sayWord "$text"
+		return
 	fi
 
 	if [ -z $1 ]
 	then
-		sayWord "$text"
+		sayWord "Following are your goals:"
 		awk '{printf("number %d is, %s,\n",NR, $0)}' ~/.goals.txt | festival --tts
 	else
 		sed -n "${1}p" $goalsFile | festival --tts
