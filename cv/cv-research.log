@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.6.17)  3 FEB 2015 02:26
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.6.17)  2 DEC 2014 22:39
 entering extended mode
  %&-line parsing enabled.
-**cv.tex
-(./cv.tex
+**cv-research.tex
+(./cv-research.tex
 LaTeX2e <2009/09/24>
 Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
 yphenation, farsi, arabic, croatian, bulgarian, ukrainian, russian, czech, slov
@@ -158,57 +158,35 @@ Package: atbegshi 2008/07/31 v1.9 At begin shipout hook (HO)
 File: hpdftex.def 2009/10/09 v6.79a Hyperref driver for pdfTeX
 \Fld@listcount=\count96
 )
-(/usr/share/texmf-texlive/tex/latex/ltxmisc/framed.sty
-Package: framed 2007/10/04 v 0.95: framed or shaded text with page breaks
-\fb@frw=\dimen110
-\fb@frh=\dimen111
-\FrameRule=\dimen112
-\FrameSep=\dimen113
-)
-(/usr/share/texmf-texlive/tex/latex/graphics/color.sty
-Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+Package hyperref Info: Option `colorlinks' set `true' on input line 7.
+ (./cv-research.aux)
+\openout1 = `cv-research.aux'.
 
-(/etc/texmf/tex/latex/config/color.cfg
-File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
-)
-Package color Info: Driver file: pdftex.def on input line 130.
-
-(/usr/share/texmf-texlive/tex/latex/pdftex-def/pdftex.def
-File: pdftex.def 2010/03/12 v0.04p Graphics/color for pdfTeX
-\Gread@gobject=\count97
-)
-(/usr/share/texmf-texlive/tex/latex/graphics/dvipsnam.def
-File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
-))
-Package hyperref Info: Option `colorlinks' set `true' on input line 10.
- (./cv.aux)
-\openout1 = `cv.aux'.
-
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
 
 *geometry auto-detecting driver*
 *geometry detected driver: pdftex*
 -------------------- Geometry parameters
-paper: class default
+paper: a4paper
 landscape: --
 twocolumn: --
 twoside: --
 asymmetric: --
-h-parts: 54.2025pt, 505.89pt, 54.2025pt
-v-parts: 52.03448pt, 664.88377pt, 78.05173pt
+h-parts: 81.94394pt, 433.62pt, 81.94394pt
+v-parts: 77.84674pt, 650.43pt, 116.77011pt
 hmarginratio: 1:1
 vmarginratio: 2:3
 lines: --
@@ -220,13 +198,13 @@ includefoot: --
 includemp: --
 driver: pdftex
 -------------------- Page layout dimensions and switches
-\paperwidth  614.295pt
-\paperheight 794.96999pt
-\textwidth  505.89pt
-\textheight 664.88377pt
-\oddsidemargin  -18.06749pt
-\evensidemargin -18.06749pt
-\topmargin  -57.2355pt
+\paperwidth  597.50787pt
+\paperheight 845.04684pt
+\textwidth  433.62pt
+\textheight 650.43pt
+\oddsidemargin  9.67395pt
+\evensidemargin 9.67395pt
+\topmargin  -31.42325pt
 \headheight 12.0pt
 \headsep    25.0pt
 \footskip   30.0pt
@@ -240,87 +218,89 @@ driver: pdftex
 
 (1in=72.27pt, 1cm=28.45pt)
 -----------------------
-Package hyperref Info: Link coloring ON on input line 17.
-(/usr/share/texmf-texlive/tex/latex/hyperref/nameref.sty
+(/usr/share/texmf-texlive/tex/latex/graphics/color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+(/etc/texmf/tex/latex/config/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+
+(/usr/share/texmf-texlive/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2010/03/12 v0.04p Graphics/color for pdfTeX
+\Gread@gobject=\count97
+
+(/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count98
+\scratchdimen=\dimen110
+\scratchbox=\box26
+\nofMPsegments=\count99
+\nofMParguments=\count100
+\everyMPshowfont=\toks17
+\MPscratchCnt=\count101
+\MPscratchDim=\dimen111
+\MPnumerator=\count102
+\everyMPtoPDFconversion=\toks18
+)))
+Package hyperref Info: Link coloring ON on input line 11.
+ (/usr/share/texmf-texlive/tex/latex/hyperref/nameref.sty
 Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
 
 (/usr/share/texmf-texlive/tex/latex/oberdiek/refcount.sty
 Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
 )
-\c@section@level=\count98
+\c@section@level=\count103
 )
-LaTeX Info: Redefining \ref on input line 17.
-LaTeX Info: Redefining \pageref on input line 17.
- (./cv.out)
-(./cv.out)
+LaTeX Info: Redefining \ref on input line 11.
+LaTeX Info: Redefining \pageref on input line 11.
+ (./cv-research.out) (./cv-research.out)
 \@outlinefile=\write3
-\openout3 = `cv.out'.
+\openout3 = `cv-research.out'.
 
-\AtBeginShipoutBox=\box26
- (/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count99
-\scratchdimen=\dimen114
-\scratchbox=\box27
-\nofMPsegments=\count100
-\nofMParguments=\count101
-\everyMPshowfont=\toks17
-\MPscratchCnt=\count102
-\MPscratchDim=\dimen115
-\MPnumerator=\count103
-\everyMPtoPDFconversion=\toks18
-)
-Underfull \hbox (badness 10000) in paragraph at lines 21--22
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--24
-
- []
-
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 28.
-(/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
+\AtBeginShipoutBox=\box27
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 21.
+ (/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 28.
- [1
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 21.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 23.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 23.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 23.
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 80.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 80.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 80.
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
-een already used, duplicate ignored
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]pdfTeX warning (ext4): dest
+ination with the same identifier (name{page.}) has been already used, duplicate
+ ignored
 <to be read again> 
                    \relax 
-l.85 \end{document}
-                    [2] (./cv.aux) )
+l.74 \end{document}
+                    [2] (./cv-research.aux) )
 (\end occurred inside a group at level 1)
 
-### simple group (level 1) entered at line 19 ({)
+### simple group (level 1) entered at line 14 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 4618 strings out of 493848
- 67979 string characters out of 1152823
- 143745 words of memory out of 3000000
- 7857 multiletter control sequences out of 15000+50000
- 6984 words of font info for 25 fonts, out of 3000000 for 9000
+ 4377 strings out of 493848
+ 64276 string characters out of 1152823
+ 135171 words of memory out of 3000000
+ 7620 multiletter control sequences out of 15000+50000
+ 7030 words of font info for 25 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 38i,5n,31p,266b,380s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 38i,5n,31p,268b,394s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12
-.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr
-/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texm
-f-texlive/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fo
-nts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/p
-ublic/amsfonts/cm/cmsy8.pfb>
-Output written on cv.pdf (2 pages, 79676 bytes).
+.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/
+share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-
+texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fon
+ts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on cv-research.pdf (2 pages, 75512 bytes).
 PDF statistics:
  41 PDF objects out of 1000 (max. 8388607)
- 2 named destinations out of 1000 (max. 500000)
+ 4 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
