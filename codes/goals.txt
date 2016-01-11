@@ -38,6 +38,7 @@ function speak {
 }
 
 function showUsage {
+	echo ""
 	echo "Usage: $0 add|discard|say goal-text(add)|goal-number(for others)"
 }
 
