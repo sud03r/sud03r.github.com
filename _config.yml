@@ -9,9 +9,9 @@ highlighter: rouge
 # so be sure to set them if your theme uses them.
 #
 title : AlgoCorner
-tagline: Algorithms explained
+tagline: ...
 author :
-  name : Neeraj Kumar
+  name : sud03r
   email : neeraj@cs.ucsb.edu
   github : sud03r
   twitter : neeraj_17
