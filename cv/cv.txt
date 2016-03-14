@@ -1,0 +1,57 @@
+Neeraj Kumar
+sud03r.github.com
+
+: +1-805-886-2271
+B: neeraj@cs.ucsb.edu
+: 6520 El Colegio Rd, Apt 2229 Goleta, CA 93117
+
+
+
+Computer enthusiast with over three years of experience in building large scale software systems.
+Education
+• University of California, Santa Barbara
+Doctor of Philosophy, Computer Science
+• University of Waterloo, Canada
+Master of Mathematics, Computer Science
+Algorithms and Complexity, CGPA : 93.2%
+Thesis: Width properties of control-ﬂow graphs and applications.
+• Indian Institute of Technology, Varanasi, India
+Bachelors in Computer Science
+CGPA : 8.69/10
+
+(Fall 2015 - current)
+(Fall 2013 - 2015)
+
+(2006 - 2010)
+
+Tech Arsenal
+• Programming languages C++(Proﬁcient), C (Good), Perl (Good), shell-scripts (Good), php
+• Operating systems/Tools Linux (Ubuntu), GDB (Proﬁcient), version control (git, svn, cvs),
+awk, sed, etc
+Work Experience
+• Google Summer of Code, Open Graph Drawing Framework
+Implemented algorithms for computing treewidth of undirected graphs.
+
+(Summers 2014)
+
+• Senior Software Developer, Mentor Graphics, India
+Algorithmic solutions for Mentor’s next generation emulation platform.
+
+(2010 - Aug 2013)
+
+• Google Summer of Code, ScummVM
+Wrote a game engine for testing ScummVM subsystems.
+
+(Summers 2010)
+
+Other projects
+• For an advanced operating system course, we performed a holistic analysis of shared library
+performance on NUMA architectures.
+• Practical algorithms for analyzing worst-case execution time of programs.
+Miscellaneous
+• Publication SiPTA: Signal Processing for Trace-based Anomaly Detection, at EM SOF T 14
+• Scholarships Graduate Entrance Scholarship (UWaterloo), CBSE Merit Scholarship (India)
+• Teaching assistant for CS341 (Algorithms, UWaterloo), CS 130A (Algorithms and Data Structures, UCSB).
+• Languages English (ﬂuent), Hindi(ﬂuent)
+
+
