@@ -7,7 +7,7 @@ tags: [misc]
 ---
 {% include JB/setup %}
 
-This blog is going to be about algorithms, particularly concerning
+This blog will be about algorithms, particularly concerning
 graphs and geometry. I intend to share some cool ideas, tricks and
 techniques which I will learn over the course of my research and teaching.
 
